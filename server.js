@@ -25,8 +25,8 @@ app.get('/', (req, res) => {
     <html>
       <body>
         <h1>Test Deep Link</h1>
-        <p><a href="intent://test#Intent;scheme=myapp;package=eu.trans.loads2do;end">Open App (Android Intent Link)</a></p>
-        <p><a href="myapp://test">Open App (Custom Scheme)</a></p>
+        <p><a href="intent://test#Intent;scheme=loads4driver;package=eu.trans.loads2do;end">Open App (Android Intent Link)</a></p>
+        <p><a href="loads4driver://test">Open App (Custom Scheme)</a></p>
         <p><a href="/tt/?c=666-666&p=+48726878974">Test /tt/ Deep Link</a></p>
       </body>
     </html>
@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
 // Add /tt/ route for deep link testing
 app.get('/tt/', (req, res) => {
   // You can redirect to your app's custom scheme if you want:
-  // res.redirect('myapp://tt/?' + new URLSearchParams(req.query).toString());
+  // res.redirect('loads4driver://tt/?' + new URLSearchParams(req.query).toString());
 
   // Or just show a test page:
   res.send(`
