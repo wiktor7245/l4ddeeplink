@@ -1,0 +1,20 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "eu.trans.transconnect",
+      "sha256_cert_fingerprints":
+      ["D7:0F:DC:18:C1:1B:3F:C6:26:D4:DE:D6:B6:95:A6:73:4E:ED:7D:7B:A6:1E:4F:80:A2:EE:1D:CE:A6:56:C1:85"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "eu.trans.loads2do",
+      "sha256_cert_fingerprints":
+      ["D7:40:64:63:15:8C:B5:A6:8D:E0:00:AB:B2:7A:5C:32:4B:80:72:B1:3B:47:02:B3:04:45:EE:FB:C9:E1:6C:9B"]
+    }
+  }
+]

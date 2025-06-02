@@ -1,0 +1,6 @@
+docker compose up -d
+docker exec -it $(docker ps --filter ancestor=shlinkio/shlink:stable -q) shlink short-url:generate
+then:
+https://www.trans.eu/pl/tt/?c=666-666&p=+48726878974
+
+
